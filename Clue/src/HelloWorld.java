@@ -16,6 +16,8 @@ public class HelloWorld {
 		System.out.println("Hello Mystery Inc!");
 
 		System.out.println("This change is coming from Branch (skeletal)");
+
+		System.out.println("The third commit to the repo)");
 	}
 
 }
