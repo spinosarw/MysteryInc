@@ -1,1 +1,7 @@
-/bin/
+# Temporary Files
+*~
+.*.swp
+.DS_STORE
+
+bin/
+target/
