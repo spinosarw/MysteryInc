@@ -9,6 +9,6 @@ package clueless;
  */
 public class Card {
 
-	public String text;
+	public String type;
 
 }
