@@ -9,6 +9,9 @@ package clueless;
  */
 public class Player {
 
-	public String text;
+	String detectiveNotes;
+	String suspectName;
+	String positionOnBoard;
+	int cards[] = new Card[];
 
 }
