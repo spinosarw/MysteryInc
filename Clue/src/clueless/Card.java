@@ -9,6 +9,11 @@ package clueless;
  */
 public class Card {
 
-	public String type;
+	String type;
+	int value;
+	Card(String type, int value) {
+		this.type=type;
+		this.value=value;
+	}
 
 }
