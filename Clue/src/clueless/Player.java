@@ -8,10 +8,24 @@ package clueless;
  *
  */
 public class Player {
+	public String detectiveNotes;
+	public String suspectName;
+	public String positionOnBoard;
+	public String cards;
 
-	String detectiveNotes;
-	String suspectName;
-	String positionOnBoard;
-	int cards[] = new Card[];
-
+public Player(String detectiveNotes) {
+	this.detectiveNotes = detectiveNotes;
+}
+public String makeAccusation() {
+	return suspectName;
+}
+public String makeSuggestion() {
+	return detectiveNotes;
+}
+public String displayCard() {
+	return cards;
+}
+public String move() {
+	return positionOnBoard;
+}
 }
