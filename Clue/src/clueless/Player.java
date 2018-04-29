@@ -19,7 +19,6 @@ public class Player {
 
 	PlayerHand myHand;
 	DetectivePad myNotes;
-	public String suspectName;
 
 	public void updateSuspectName(String name)
 	{
