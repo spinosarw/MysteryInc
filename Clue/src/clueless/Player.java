@@ -12,6 +12,10 @@ import java.util.Random;
  *
  */
 public class Player {
+	public String detectiveNotes;
+	public String suspectName;
+	public String positionOnBoard;
+	public String cards;
 
 	PlayerHand myHand;
 	DetectivePad myNotes;
